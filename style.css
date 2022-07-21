@@ -1,0 +1,105 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(25, 165, 27);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(4, 53, 21);
+  }
+
+/* body */
+    body
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #151515;
+        color: white;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+
+    textarea
+    {
+        background-color: rgba(200, 225, 200, 0.25);
+        border: solid rgba(255, 255, 255, 0.25) 1px;
+        color: rgb(226, 237, 233);
+        border-radius: 5px;
+    }
+
+    #fileLoader
+    {
+        transform: scale(1.0);
+        font-size: 12px;
+    }
+
+    #file-upload-button
+    {
+        background-color: green;
+    }
+
+    input
+    {
+        background-color: rgba(96, 218, 96, 0.25);
+        margin-top: 5px;
+        border: solid rgba(255, 255, 255, 0.25) 1px;
+        color: aliceblue;
+        transform: scale(1.15);
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+/* Form */
+    #uploadForm
+    {
+        background-color: rgba(15, 55, 15,0.5);
+        border-radius: 10px;
+        border: solid rgba(255, 255, 255, 0.25) 1px;
+        height: 600px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    #fileLoader
+    {
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 2px;
+        margin-bottom: 10px;
+    }
+
+    #textBox
+    {
+        min-width: 300px;
+        max-width: 430px;
+        height: 177px;
+        width: 430px;
+        max-height: 177px;
+        min-height: 125px;
+        word-break: break-word;
+    }
+
+    #groupSelect
+    {
+        background-color: rgba(200, 225, 200, 0.25);
+        color: white;
+        width: 220px;
+        height: 250px;
+        text-align: center;
+    }

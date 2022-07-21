@@ -1,0 +1,18 @@
+{
+  "name": "informe-zap-whatsapp-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "whats.js",
+  "scripts": {
+    "start": "node whats.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.17.1"
+  }
+}
