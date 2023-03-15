@@ -15,11 +15,10 @@ app.use(fileUpload()); // Usando o pacote pra lidar com arquivos
 // Isso aqui é o que abre quando voce digita localhost:3000
 app.get('/', (req, res) =>  {
     // res.sendFile(__dirname + "/index.html"); // Retornando um HTML pra ficar mais facil de fazer o visual do front-end
-    text = "FREE - INFORME CRIPTO - "+ date.getDate()+"-"+(date.getMonth()+1)+"-"+date.getFullYear() +
-    "\n\nAcompanhe nossos outros áudios em @InformeCriptoCanal"+
-    "\n\nVocê quer que seu grupo ou canal fique bem informado com nossos áudios?"
-    "\n\nBasta adicionar nosso Bot @InformeCripto_BOT como administrador e enviar uma mensagem para @DAYVISONH, assim liberaremos seu grupo/canal 100% grátis!"
-    "\n\nLembre-se, informação é tudo!";
+    text = "INFORME CRIPTO - "+ date.getDate()+"-"+(date.getMonth()+1)+"-"+date.getFullYear() +
+    "\n\nSe você ou seu grupo deseja ficar bem informado basta adicionar esse bot (41997610187)"+
+    "\n\nEnviaremos todos os dias notícias sobre o mundo Cripto!"
+    
     res.send(BuildPage(text,groupsNames, groups));
 })
 
